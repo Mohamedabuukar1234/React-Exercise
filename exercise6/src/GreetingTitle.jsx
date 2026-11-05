@@ -4,7 +4,7 @@ function Greeting (){
     const [name ,setName] = useState ("")
     const [Greeting ,setGreeting] = useState ("helow")
 
-    useEffect (()=>{
+    useEffect (()=>{  
        if(!name){
         document.title ='welcome';
        }else{
