@@ -1,0 +1,22 @@
+.main{
+   
+    color: black;
+   
+    font-size: 30px;
+    width: 50%;
+    text-align: center;
+   margin: auto 25%;
+   margin-bottom: 50px;
+
+}
+.header{
+    background-color: white;
+     border: 1px solid white;
+    border-radius: 12px;
+    height: 400px;
+    padding: 50px;
+    width: 400px;
+    margin: auto 25%;
+    margin-top: 100px;
+   
+}

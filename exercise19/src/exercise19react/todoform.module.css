@@ -1,0 +1,21 @@
+.todoform{
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.todoform input {
+    border: 2px solid gray;
+    border-radius: 8px;
+    padding-inline: 20px;
+    padding-block: 10px;
+}
+.todoform button{
+   background-color: blueviolet;
+   color: white;
+   padding-inline: 20px;
+   border-radius: 10px;
+   font-size: 20px;
+
+}
