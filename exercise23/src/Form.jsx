@@ -286,11 +286,11 @@ const handleChange = (e) => {
       </div>
         {
       submited && (
-        <div style={{textAlign:"center", backgroundColor: "lightblue", color:"black", padding:"20px", boxShadow:"0 0 20px gray ", margin:"10px"}}>
-        <p> Full Name:{formData.fullName}</p>
-        <p>Email : {formData.email}</p>
-        <p>Role :{formData.role}</p>
-        <p>Skills {formData.skills} {formData.skills.length}   language</p>
+        <div style={{textAlign:"center", backgroundColor: "lightblue", color:"black", padding:"20px", boxShadow:"0 0 20px gray ", margin:"10px", height :"100%" ,padding : "20px", marginInline : "20px"}}>
+        <p style={{border : "2px solid gray", borderRadius:"10px", fontSize : "32px", textTransform:"capitalize", margin:"15px"}}> Full Name:{formData.fullName}</p>
+        <p  style={{border : "2px solid gray", borderRadius:"10px", fontSize : "32px", textTransform:"capitalize ", margin:"15px"}}>Email : {formData.email}</p>
+        <p  style={{border : "2px solid gray", borderRadius:"10px", fontSize : "32px", textTransform:"capitalize", margin:"15px"}}>Role : {formData.role}</p>
+        <p  style={{border : "2px solid gray", borderRadius:"10px", fontSize : "32px", textTransform:"capitalize", margin:"15px"}}>Skills :   {formData.skills} ({formData.skills.length}   language)</p>
         <p></p>
         </div>
       )
